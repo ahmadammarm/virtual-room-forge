@@ -1,5 +1,5 @@
 "use client"
-// import CompareSlider from "@/components/CompareSlider";
+import CompareSlider from "@/components/CompareSlider";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -13,8 +13,7 @@ export default function Home() {
           <span className="text-teal-700">using AI</span>
         </h1>
         <p className="text-gray-500 text-lg text-center">
-          Take a picture of a room and instantly redesign it in 8+ diffenrent
-          themes. Join thousands of happy customers and remodel your room today!
+          Take a picture of your room and we will redesign it for you using AI. Join the future of interior design.
         </p>
         <Link href={"/room"}>
           <button className="
@@ -31,7 +30,7 @@ export default function Home() {
         </Link>
       </div>
       <div>
-        {/* <CompareSlider /> */}
+        <CompareSlider />
       </div>
     </main>
   );
