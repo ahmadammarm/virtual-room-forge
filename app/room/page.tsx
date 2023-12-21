@@ -1,6 +1,6 @@
 import GenerateBtn from '@/components/GenerateBtn'
 import PreviewImg from '@/components/PreviewImg'
-import SelectInp from '@/components/SelectInp'
+import SelectInput from '@/components/SelectInput'
 import ThemeOptions from '@/components/ThemeOptions'
 import UploadDnd from '@/components/UploadDnd'
 import React from 'react'
@@ -16,7 +16,7 @@ function page() {
           </div>
           <div className="flex flex-col items-center gap-5 w-full">
             <h3 className="font-bold text-white text-xl">Select Room Type</h3>
-            <SelectInp />
+            <SelectInput />
           </div>
           <div className="flex flex-col items-center gap-5 w-full">
             <h3 className="font-bold text-white text-xl">Select Room Theme</h3>

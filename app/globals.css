@@ -17,6 +17,12 @@
   pointer-events: none;
 }
 
+.selected {
+  background-color: rgba(103, 118, 255, 0.363);
+  border-radius: 10px;
+  padding: 10px;
+}
+
 @media screen and (max-width: 1100px) {
   .gradiant-bg::before {
     transform: scale(2.5);
