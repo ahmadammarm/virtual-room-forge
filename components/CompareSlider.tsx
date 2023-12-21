@@ -1,4 +1,6 @@
 "use client"
+
+
 import React from 'react'
 import { ReactCompareSlider,ReactCompareSliderImage } from 'react-compare-slider'
 
