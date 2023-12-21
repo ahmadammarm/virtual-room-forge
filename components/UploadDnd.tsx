@@ -65,7 +65,7 @@ function UploadDnd() {
     </div>
   ) : (
     <UploadDropzone
-      options={options}
+    options={{ ...options, apiKey: process.env.NEXT_PUBLIC_BYTESCALE_API_KEY || "" }}
       onUpdate={onUpdate}
       width="400px"
       height="200px"
